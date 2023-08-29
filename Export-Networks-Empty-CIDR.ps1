@@ -7,7 +7,7 @@ $ExportFile = "empty-cidr-networks-$DateStamp-$TimeStamp.csv"
 $vRAServer = "vra8.cybersylum.com"
 $vRAUser = "kinger@cybersylum.com"
 
-$vRA=connect-vraserver -server $vRAServer -Username "$vRAUser" 
+$vRA=connect-vraserver -server $vRAServer -Username "$vRAUser" -IgnoreCertRequirements
 if ($null -eq $vRA) {
     write-host "Unable to connect to vRA Server '$vRAServer'..."
     exit
