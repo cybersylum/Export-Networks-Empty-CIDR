@@ -12,5 +12,7 @@ Disclaimer:  This script was obtained from https://github.com/cybersylum<br>
 
 <P>The script provides a prompt to allow a choice of all networks or networks associated with a specific Cloud Account.</P>
 
+<P>This can be used to audit your environment or as a tool to identify networks for the <a href="https://github.com/cybersylum/vRA-Network-Import" target="_blank">vRA Network Import</P>a> scripts.</a>P>
+  
 <p>All scripts require Poweshell and PowerVRA 6.x+ - https://github.com/jakkulabs/PowervRA</p>
 
